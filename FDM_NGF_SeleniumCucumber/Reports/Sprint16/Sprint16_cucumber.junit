@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="98.543" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Display Loading Animation and Error Message for Quiz Loading in IPrep Mock Exam Submodule" name="Verify loading animation appears before the mock questions loads" time="96.458">
+<system-out><![CDATA[
+Given User is on the home page..............................................passed
+When User navigates to the log in page......................................passed
+And User enters their username and password and clicks the log in button....passed
+When User navigates to IPrep Module.........................................passed
+And User navigates to Mock Exam page........................................passed
+When User selects a subject "Java" for the mock exam........................passed
+And User clicks on Take Mock Exam button....................................passed
+Then Loading animation appears with text "Loading"..........................passed
+]]></system-out>
+</testcase>
+</testsuite>

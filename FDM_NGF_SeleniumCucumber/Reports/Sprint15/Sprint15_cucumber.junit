@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="65.485" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Ensure mock exam questions display points" name="Verify each question in a mock exam displays a score of one point beside it" time="62.436">
+<system-out><![CDATA[
+Given User is on the home page..............................................passed
+When User navigates to the log in page......................................passed
+And User enters their username and password and clicks the log in button....passed
+When User navigates to IPrep Module.........................................passed
+And User navigates to Mock Exam page........................................passed
+When User selects a subject "Java" for the mock exam........................passed
+And User clicks on Take Mock Exam button....................................passed
+Then User should see 1 point beside question in exam........................passed
+When User enters answer "d" for the question in mock exam...................passed
+And User clicks on the next question button in mock exam....................passed
+Then User should see 1 point beside question in exam........................passed
+When User enters answer "d" for the question in mock exam...................passed
+And User clicks on the next question button in mock exam....................passed
+Then User should see 1 point beside question in exam........................passed
+When User enters answer "d" for the question in mock exam...................passed
+And User clicks on the next question button in mock exam....................passed
+Then User should see 1 point beside question in exam........................passed
+When User enters answer "d" for the question in mock exam...................passed
+And User clicks on the next question button in mock exam....................passed
+Then User should see 1 point beside question in exam........................passed
+When User enters answer "d" for the question in mock exam...................passed
+And User clicks on the next question button in mock exam....................passed
+Then User should see 1 point beside question in exam........................passed
+When User enters answer "d" for the question in mock exam...................passed
+And User clicks on the next question button in mock exam....................passed
+Then User should see 1 point beside question in exam........................passed
+When User enters answer "d" for the question in mock exam...................passed
+And User clicks on the next question button in mock exam....................passed
+Then User should see 1 point beside question in exam........................passed
+]]></system-out>
+</testcase>
+</testsuite>

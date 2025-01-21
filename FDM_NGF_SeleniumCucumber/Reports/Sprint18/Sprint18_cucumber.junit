@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="21.241" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="As a back-end developer," name="User accesses the preferences page" time="21.073">
+<failure type="io.cucumber.java.PendingException" message="TODO: implement me">
+<![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at com.fdmgroup.Main_Dashboard.step_definitions.PreferenceMenuStepDefination.the_user_session_should_be_invalidated(PreferenceMenuStepDefination.java:59)
+	at ✽.the user session should be invalidated(file:///Users/karanpunjabi/git/fdm_ngf_qaes/FDM_NGF_SeleniumCucumber/src/test/resources/Features/Sprint_18/NGF_662_LogoutAndPreferenceMenu.feature:29)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is on the home page for login....................................passed
+And User navigates to login page............................................passed
+And User enters valid username..............................................passed
+And User enters valid password..............................................passed
+When User clicks on login button............................................passed
+Then User should be logged in and see the homepage..........................passed
+Given a logged-in user with an active session...............................passed
+When the user navigates to the "Preferences" page...........................passed
+Then the user should see options to update "Dark Mode"......................passed
+And the options should reflect the user's current settings..................passed
+And placeholders for "Contact Email" and "Password" are prepared............passed
+When the user clicks the "Logout" button....................................passed
+Then the user session should be invalidated.................................pending
+And the user should be redirected to the main dashboard.....................skipped
+And the user should not have access to the preferences page.................skipped
+]]></system-out>
+</testcase>
+<testcase classname="As a back-end developer," name="Unauthorized access to preferences page is denied" time="0.011">
+<failure type="org.openqa.selenium.NoSuchSessionException" message="Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=http://localhost:4200/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/h3/379nt3051qz...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51682/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}">
+<![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=http://localhost:4200/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/h3/379nt3051qz...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51682/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at com.fdmgroup.Hooks.Hooks.setUp(Hooks.java:40)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is on the home page for login....................................skipped
+And User navigates to login page............................................skipped
+And User enters valid username..............................................skipped
+And User enters valid password..............................................skipped
+When User clicks on login button............................................skipped
+Then User should be logged in and see the homepage..........................skipped
+Given a user who is not logged in...........................................skipped
+When the user attempts to access the "Preferences" page.....................skipped
+Then the user should be redirected to the login page........................skipped
+And the user should not see any account-related information.................skipped
+]]></system-out>
+</testcase>
+</testsuite>

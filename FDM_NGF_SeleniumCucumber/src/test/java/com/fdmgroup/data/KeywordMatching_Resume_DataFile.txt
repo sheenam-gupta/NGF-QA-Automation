@@ -1,0 +1,71 @@
+Simon Salami
+Software Engineering | Software Tester
+
+Profile
+Simon is a Software Tester Consultant with 21 months experience in Software Test engineering and test automation. His experience at TD Bank working on a major new initiative for Unsecured Consumer Credit (Project Heart) as a Quality Engineer properly displayed his skills which involves working with a cross-functional team of developers, product owners and business systems analysts to ensure the highest quality of the product is reached during a software development cycle. He is highly motivated to bring value to a multifunctional and dynamic team to leave an impact on the industry.
+Key skills
+•	Problem Solving
+•	Diligence
+•	Adaptive person
+•	Time Management	•	Adaptability
+•	Communication
+•	Collaboration
+Experience
+IT Consultant – QE Engineer for Steel Pod
+FDM Group Canada/TD Bank | Nov 2022 – July 2024
+At TD, the Quality Engineer worked with a cross-functional team of developers, product owners and business systems analysts to ensure the highest quality of the product is reached during a software development cycle. Other roles and responsibilities include:
+•	Reviewing and analyzing system specifications
+•	Developing test plans – Which involves activities of defining the goals of testing and the approach for meeting test goals.
+•	Early testing to catch defects at an early stage reduces the bug fixing cost and time.
+•	Developing manual and automation test cases
+•	Executing manual or automatic test cases and analyzing results
+•	Finding bugs and reporting defects to software developers by recording software defects with a bug-tracking system
+•	Analyzing the Defects and finding the root cause.
+•	Key tools used: JIRA, JTMF, Microsoft Office applications, Postman, IntelliJ IDE (for test automation), selenium and cucumber, Datadog, bitbucket (CI-CD), git
+Production Line Worker
+Norseman Protective Solutions | Oct 2021 – March 2022
+At Norseman, the production line worker worked with the main stitching machine and the compression machine safely in a demanding environment with little to no supervision. He also learnt the safe operating procedures for different machinery in the warehouse.
+
+
+Production Line Worker
+All Weather Windows | July 2021 – Sept 2021
+At All-weather windows, the production line worker worked in a high hazard environment handling glass products safely while being attentive and observant of my surroundings. He learnt great teamwork skills collaborating with his coworkers where they perfected our workflows to increase the productivity of the warehouse.
+•	Picked up new skills quickly and was able adapt to multiple roles at multiple stations where he was stationed.
+Conveyor Belt Weight-Speed Regulator
+Academic Capstone Project – University of Alberta | Sept 2019 – April 2020
+Built a prototype conveyor belt weight-speed controller for a client (Triple M Farms) to help reduce the damage done to farm produce during harvest and transportation. This was a group project in which I learnt effective communication and teamwork skills with my colleagues. I also learnt to understand the client’s need and meet it properly with the tools at hand.
+•	Researched a suitable load cell and load cell amplifier for the prototype and implemented a function on the amplifier to obtain the correct weight placed on the load cell using C code.
+
+Security Guard
+Garda World/Northlands | July 2018 – Sept 2019
+
+
+Working as a security guard, I improved my customer service skills and communication skills with the customers and coworkers and learnt to be observant and alert to my surroundings.
+•	Gained valuable customer service skills by communicating all security requirements clearly with the customers while listening to and managing any issues or questions they had.
+Simon Pattern Repetition Game
+Academic Project - University of Alberta | Nov 2018 – Dec 2018
+Designed the hardware and wrote the code for the Simon pattern Repetition Game with my colleague. This project which was written in C programming language helped me improve my programming skills and programming etiquette.
+•	Researched the memory on a microcontroller and used that information to store user high scores permanently even after shutdown.
+
+
+FDM Skills Lab
+Software Testing
+FDM Skills Lab | Aug 2022 – Nov 2022
+•	Professional Skills
+•	SQL
+•	UNIX
+•	ISTQB
+•	API Testing/Rest Assured	•	Manual Testing
+•	Core Java
+•	Selenium WebDriver
+•	Cucumber
+Education
+Bachelor of Science in Electrical Engineering (Nanoengineering) University of Alberta | Sept 2016 – July 2021
+•	Embedded System Design
+•	Programming for Electrical Engineers (C, C++, Assembly language, Object Oriented Programming)	•	Financial Management for Engineers
+•	Engineering Safety and Risk Management
+Achievements and additional skills
+•	Fluent in English Language
+•	Microsoft AZ – 900 Certified
+•	SDET Java: Automation Testing from Scratch Certificate	•	Engineer in Training (E.I.T) with the Association of Professional Engineers and Geoscientists of Alberta (APEGA)
+•	Alberta Construction Safety Association CSTS Certificate
