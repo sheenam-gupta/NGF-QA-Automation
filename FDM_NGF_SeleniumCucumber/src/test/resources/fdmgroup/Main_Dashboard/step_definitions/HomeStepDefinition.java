@@ -5,7 +5,6 @@ import com.fdmgroup.Main_Dashboard.pages.HomePage;
 import com.fdmgroup.Main_Dashboard.pages.LoginPage;
 import com.fdmgroup.Utilities.BrowserUtilities;
 import com.fdmgroup.Utilities.ConfigurationReader;
-import com.fdmgroup.listeners.ExtentReportListener;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -53,7 +52,6 @@ public class HomeStepDefinition extends BrowserUtilities {
         homePage.clickPage2Button();
         homePage.clickExploreInsureTechButton();
         sleep((int) scale * delay);
-        
     }
 
     @When("User clicks explore InsightVision button")

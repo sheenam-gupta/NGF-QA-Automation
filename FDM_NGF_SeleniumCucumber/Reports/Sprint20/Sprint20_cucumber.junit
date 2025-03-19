@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="32.487" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="AI assessor prompts for information about my location, property status," name="User requests risk rating on the AI Risk Assessor for home insurance - #1.1" time="32.001">
+<system-out><![CDATA[
+Given User is on the home page..............................................passed
+When User navigates to the log in page......................................passed
+And User enters their username and password and clicks the log in button....passed
+And User clicks explore InsureTech button...................................passed
+And User clicks explores AI Risk Assessor button............................passed
+And User clicks on home insurance for AI risk rating........................passed
+When User enters age for AI risk rating '20'................................passed
+And User selects gender for AI risk rating 'Male'...........................passed
+And User enters city for AI risk rating 'Toronto'...........................passed
+And User selects owning status for AI risk rating 'Renting'.................passed
+And User enters dwelling amount for AI risk rating '2000'...................passed
+And User enters personal property amount for AI risk rating '0'.............passed
+And User enters liability for AI risk rating '60000'........................passed
+And User enters deductible for AI risk rating '200'.........................passed
+And User enters income for AI risk rating '80000'...........................passed
+And User clicks get risk rating button for AI risk rating...................passed
+Then User should see the risk rating level response for the AI risk rating 'Medium-Low'.passed
+]]></system-out>
+</testcase>
+</testsuite>

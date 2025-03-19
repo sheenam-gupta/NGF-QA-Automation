@@ -1,0 +1,52 @@
+package com.fdmgroup.data;
+
+
+public class InsureTech_Datafile {
+    public static final String AI_RISK_ASSESSOR = "AI Risk Assessor";
+    public static final String INSURANCE_TYPE = "Insurance Type";
+    public static final String HEALTH_INSURANCE = "Health Insurance";
+    public static final String AUTO_INSURANCE = "Auto Insurance";
+    public static final String HOME_INSURANCE = "Home Insurance";
+    public static final String SELECT_AN_OPTION = "Select an option";
+    public static final String SELECT = "Select";
+    public static final String SELECT_GENDER = "Select Gender";
+    public static final String MALE = "Male";
+    public static final String FEMALE = "Female";
+    public static final String OTHER = "Other";
+    public static final String RENTING = "Renting";
+    public static final String OWNING = "Owning";
+    public static final String PREFER_NOT_TO_SAY = "Prefer not to say";
+    public static final String SMOKING_STATUS = "Smoking Status";
+    public static final String NEVER = "Never";
+    public static final String FORMER = "Former";
+    public static final String LIGHT = "Light";
+    public static final String HEAVY = "Heavy";
+    public static final String ALCOHOL_CONSUMPTION = "Alcohol Consumption";
+    public static final String NONE = "None";
+    public static final String MODERATE = "Moderate";
+    public static final String EXERCISE_HABITS = "Exercise Habits";
+    public static final String SEDENTARY = "Sedentary";
+    public static final String VERY_ACTIVE = "Very Active";
+    public static final String DIETARY_HABITS = "Dietary Habits";
+    public static final String UNHEALTHY = "Unhealthy";
+    public static final String AVERAGE = "Average";
+    public static final String HEALTHY = "Healthy";
+    public static final String VERY_HEALTHY = "Very Healthy";
+    public static final String MARITAL_STATUS = "Marital Status";
+    public static final String HOME_OWNING_STATUS = "Renting or Owning Status";
+    public static final String SINGLE = "Single";
+    public static final String MARRIED = "Married";
+    public static final String DIVORCED = "Divorced";
+    public static final String WIDOWED = "Widowed";
+    public static final String VEHICLE_USAGE = "Vehicle Usage";
+    public static final String PERSONAL = "Personal";
+    public static final String COMMUTE = "Commute";
+    public static final String BUSINESS = "Business";
+    public static final String PRE_EXISTING_CONDITIONS = "Pre-Existing Conditions";
+    public static final String FAMILY_MEDICAL_HISTORY = "Family Medical History";
+    public static final String RECENT_SURGERIES = "Recent Surgeries";
+    public static final String CURRENT_MEDICATIONS = "Current Medications";
+    public static final String YES = "Yes";
+    public static final String NO = "No";
+    public static final String INSURETECH_TEXT = "InsureTech";
+}

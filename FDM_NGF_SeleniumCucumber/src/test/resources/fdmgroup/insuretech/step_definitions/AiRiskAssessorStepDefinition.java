@@ -1,8 +1,6 @@
 package com.fdmgroup.insuretech.step_definitions;
 
 import com.fdmgroup.insuretech.pages.AiRiskAssessorPage;
-import com.fdmgroup.listeners.ExtentReportListener;
-
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -11,11 +9,7 @@ import io.cucumber.java.en.When;
 import static com.fdmgroup.data.InsureTech_Datafile.*;
 import static org.junit.Assert.assertTrue;
 
-import org.openqa.selenium.WebDriver;
-
 public class AiRiskAssessorStepDefinition {
-	
-	 private WebDriver driver;
 
     private final AiRiskAssessorPage aiRiskAssessorPage = new AiRiskAssessorPage();
     private final int delay = 1000;
@@ -38,7 +32,6 @@ public class AiRiskAssessorStepDefinition {
     public void user_enters_age_for_ai_risk_rating(String age) {
         aiRiskAssessorPage.enterAge(age);
         sleep(scale);
-       
     }
 
     @When("User selects gender for AI risk rating {string}")
@@ -47,7 +40,6 @@ public class AiRiskAssessorStepDefinition {
         sleep(scale);
         aiRiskAssessorPage.selectDropdown(gender);
         sleep(scale);
-       
     }
 
     @When("User enters zip code for AI risk rating {string}")
@@ -106,7 +98,6 @@ public class AiRiskAssessorStepDefinition {
     public void user_clicks_get_risk_rating_button_for_ai_risk_rating() {
         aiRiskAssessorPage.clickGetRiskRatingButton();
         sleep(4.0f);
-      
     }
 
     @Then("User should see the risk rating level response for the AI risk rating {string}")
@@ -114,7 +105,6 @@ public class AiRiskAssessorStepDefinition {
         sleep(8.0f);
         assertTrue(aiRiskAssessorPage.isRiskResponseValid(riskRating));
         sleep(scale);
-       
     }
 
     @And("User clicks on health insurance for AI risk rating")
@@ -216,12 +206,10 @@ public class AiRiskAssessorStepDefinition {
         sleep(scale);
         aiRiskAssessorPage.selectDropdown(HOME_INSURANCE);
         sleep(scale);
-        
     }
     @And("User enters city for AI risk rating {string}")
     public void userEntersCityForAIRiskRatingCity(String city) {
         aiRiskAssessorPage.enterCity(city);
-       
     }
     @When("User selects owning status for AI risk rating {string}")
     public void user_selects_owning_status_for_ai_risk_rating(String owningStatus) {
@@ -229,33 +217,27 @@ public class AiRiskAssessorStepDefinition {
         sleep(scale);
         aiRiskAssessorPage.selectDropdown(owningStatus);
         sleep(scale);
-        
     }
 
     @When("User enters dwelling amount for AI risk rating {string}")
     public void user_enters_dwelling_amount_for_ai_risk_rating(String dwellingAmount) {
         aiRiskAssessorPage.enterDwellingAmount(dwellingAmount);
-        
     }
     @When("User enters personal property amount for AI risk rating {string}")
     public void user_enters_personal_property_amount_for_ai_risk_rating(String personalPropertyAmount) {
         aiRiskAssessorPage.enterPersonalPropertyAmount(personalPropertyAmount);
-        
     }
     @When("User enters liability for AI risk rating {string}")
     public void user_enters_liability_for_ai_risk_rating(String liability) {
         aiRiskAssessorPage.enterLiability(liability);
-        
     }
     @When("User enters deductible for AI risk rating {string}")
     public void user_enters_deductible_for_ai_risk_rating(String deductibleAmount) {
         aiRiskAssessorPage.enterDeductible(deductibleAmount);
-        
     }
     @When("User enters income for AI risk rating {string}")
     public void user_enters_income_for_ai_risk_rating(String income) {
         aiRiskAssessorPage.enterIncome(income);
-        
     }
 
     private void sleep(float scale) {

@@ -3,7 +3,6 @@ package com.fdmgroup.insuretech.step_definitions;
 import com.fdmgroup.Main_Dashboard.pages.HomePage;
 import com.fdmgroup.insuretech.pages.InsureTechPage;
 import com.fdmgroup.iprep.pages.IprepPageOne;
-import com.fdmgroup.listeners.ExtentReportListener;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -13,11 +12,7 @@ import static com.fdmgroup.data.Main_DataFile.BACKGROUND_COLOR_DK_MD;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-import org.openqa.selenium.WebDriver;
-
 public class InsureTechStepDefinition {
-	
-	 private WebDriver driver;
 
     private final InsureTechPage insureTechPage = new InsureTechPage();
     private final int delay = 1000;
@@ -26,7 +21,6 @@ public class InsureTechStepDefinition {
     public void user_clicks_explores_ai_risk_assessor_button() {
         insureTechPage.clickAiRiskAssessorButton();
         sleep(scale);
-        
     }
 
     @Then("Dark mode is enabled for InsureTech submodule page")
